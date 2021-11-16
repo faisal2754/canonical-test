@@ -21,7 +21,6 @@ const App = () => {
   if (apiData.length === 0) {
     return <div>Loading</div>
   } else {
-    console.log(apiData)
     return (
       <div className="app">
         <div className="row">
